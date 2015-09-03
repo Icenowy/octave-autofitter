@@ -1,0 +1,3 @@
+FUNC='r=polyval(p,x)'
+FIT='p=polyfit(x,y,4)'
+FITRES="fprintf(fp,'y=%gx^4+%gx^3+%gx^2+%gx^1+%g',p(1),p(2),p(3),p(4),p(5))"
